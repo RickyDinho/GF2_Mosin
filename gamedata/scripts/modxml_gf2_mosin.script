@@ -1,0 +1,13 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+
+        if xml_file_name == [[gameplay\dialogs_escape.xml]] then
+            xml_obj:insertFromXMLFile([[gameplay\dialogs_gf2_mosin.xml]], nil, nil, true)
+        end
+
+        if xml_file_name == [[configs\ui\textures_descr\ui_actor_portrets.xml]] then
+            xml_obj:insertFromXMLFile([[configs\ui\textures_descr\ui_icon_gf2_mosin.xml]], nil, nil, true)
+        end
+
+    end)
+end

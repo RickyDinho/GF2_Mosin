@@ -4,7 +4,6 @@ meta.ini
 .env
 .env.*
 
-gamedata
 
 # Ignore compiled files
 *.class
@@ -24,7 +23,7 @@ gamedata
 *.tmp
 *.bak
 *.zip
-# *.rar
+*.rar
 *.7z
 *.tar
 *.gz
